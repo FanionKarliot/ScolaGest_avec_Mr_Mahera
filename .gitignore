@@ -1,6 +1,7 @@
 # ===== Données sensibles (NE PAS PUBLIER) =====
 ouvrage_de_reference/
-ouvrage_de_reference/
+gen_sup/
+document/sauvegardes/
 text.md
 
 # ===== Python =====
