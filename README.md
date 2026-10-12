@@ -1,33 +1,7 @@
 > **Application de bureau** permettant la gestion centralisée des étudiants, des notes, des présences et de la comptabilité scolaire d'un établissement.
 > Développée en **Python** avec **Tkinter**, **Pandas**, **openpyxl** et **ReportLab**.
 
----
-
-## 📸 Aperçu
-
-### Tableau de bord
-
-![Tableau de bord](documentation/captures/accueil.png)
-
-### Formulaire d'inscription
-
-![Inscription](documentation/captures/inscription.png)
-
-### Ajout de notes
-
-![Notes](documentation/captures/notes.png)
-
-### Recherche d'un étudiant
-
-![Recherche](documentation/captures/recherche.png)
-
-### Génération de PDF
-
-![PDF](documentation/captures/pdf.png)
-
----
-
-## ✨ Fonctionnalités
+# ✨ Fonctionnalités
 
 | Module | Description |
 |---|---|
@@ -59,7 +33,7 @@
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/TON-USERNAME/scolagest.git
+git clone https://github.com/FanionKarliot/ScolaGest_avec_Mr_Mahera/tree/main
 cd scolagest
 ```
 
@@ -86,23 +60,6 @@ pip install -r requirements.txt
 > sudo apt install python3-tk
 > ```
 
-### 4. Préparer le fichier de données
-
-Le projet utilise un fichier Excel comme base de données :
-```
-document/notes_etudiant_exemple.xlsx
-```
-
-Deux options :
-
-- **Option A** — Utiliser le modèle fourni (feuilles vides) : `document/notes_etudiant_exemple_vide.xlsx`
-- **Option B** — Générer automatiquement des données de test réalistes :
-
-```bash
-python gen_sup/generer_donnees.py --reset --par-classe 20
-```
-
----
 
 ## 🚀 Lancement de l'application
 
