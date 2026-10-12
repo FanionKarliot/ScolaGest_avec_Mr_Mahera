@@ -84,11 +84,6 @@ scolagest/
 │
 ├── document/
 │   ├── notes_etudiant_exemple.xlsx        # Base de données principale (non versionnée)
-│   └── sauvegardes/                       # Sauvegardes automatiques (non versionnées)
-│
-├── gen_sup/                               # Scripts utilitaires
-│   ├── generer_donnees.py                 # Génération de données fictives
-│   └── suppression_donnee.py              # Nettoyage du fichier Excel
 │
 ├── main.py                                # Interface graphique principale
 ├── etudiants.py                           # Gestion des inscriptions
