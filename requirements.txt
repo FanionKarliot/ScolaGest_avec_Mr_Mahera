@@ -1,0 +1,14 @@
+# ============================================================
+#  ScolaGest — Dépendances Python
+#  Installation : pip install -r requirements.txt
+# ============================================================
+
+# --- Manipulation des données ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Lecture / écriture des fichiers Excel ---
+openpyxl>=3.1.0
+
+# --- Génération des documents PDF ---
+reportlab>=4.0.0

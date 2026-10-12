@@ -1,0 +1,42 @@
+# ===== Données sensibles (NE PAS PUBLIER) =====
+ouvrage_de_reference/
+ouvrage_de_reference/
+text.md
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ===== IDE / Éditeurs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== PDF générés =====
+*.pdf
+!documentation/*.pdf
+
+# ===== Logs =====
+*.log
+
+# ===== Fichiers temporaires =====
+*.tmp
+*.bak
+
